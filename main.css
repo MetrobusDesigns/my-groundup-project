@@ -49,6 +49,10 @@ nav a:hover {
     justify-content: flex-start;
 }
 /* other styling */
+.hero-header {
+    position: relative;
+}
+
 .hero-header img {
     display: block;
     width: 100%;
@@ -57,7 +61,26 @@ nav a:hover {
     margin-right: auto;
 }
 
+.hero-header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 90%;
+}
 
+.hero-header h1{
+    position: absolute;
+    bottom: 40px;
+    color: rgba(246, 245, 244, 1);
+    left: 50%; /* moves it to the right */
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 0;
+}
 .page-frame {
     height: auto;
     width: 90%;

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
 body {
     margin: 0;
     background-color: #35667C;
@@ -106,7 +107,7 @@ nav a:hover {
   }
 
 
-.hero-header h1 {
+/* .hero-header h1 {
     z-index: 2;
     font-family: Nunito, sans-serif;
     position: absolute;
@@ -123,12 +124,12 @@ nav a:hover {
     position: absolute;
     bottom: 400px;
     color: rgba(246, 245, 244, 1);
-    left: 50%; /* moves it to the right */
+    left: 50%; 
     transform: translateX(-50%);
     text-align: center;
-    margin: 0;
+    margin: 0; 
 
-}
+} */
 .page-frame {
     position: relative;
     height: auto;

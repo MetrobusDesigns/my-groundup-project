@@ -1,0 +1,38 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background: #35667C;
+    margin: 20px;
+}
+
+.page-wrapper {
+    background: white;
+    max-width: 1320px;
+    margin: auto;
+    padding: 10px
+}
+
+header {
+    background: 
+    linear-gradient(to bottom, rgba(74, 36, 9,1), rgba(74, 36,9,0)),
+    url(images/header-photo.png) center / cover;
+    color: #fff;
+    
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    
+}
+
+.tagline {
+    padding: 10% 20px;
+}
